@@ -1,25 +1,39 @@
 
-
 ##What do you want to learn?
 
 ###Front End Browser Web Apps:
 JavaScript has evolved to the default frontend browser language. Sorry Flash and [all the other contenders](http://en.wikipedia.org/wiki/Client-side_scripting#List_of_Client-Side_Scripting_Languages). 
 
 ####Understan the DOM:
-The number one think I would recomend understanding before diving in to the Browser side of web apps is the Document Object Model or 'DOM'. So you have heard of HTML? Well HTML is basically the **DNA** for the web page. Every time your browser refreshes it essentially creates a clone based off of the HTML. 
+The number one concept I would recomend understanding before diving in to the Browser side of web apps, even before HTML, is the Document Object Model or 'DOM'. Everyone has heard of HTML. HTML is basically the **DNA** for the web page. Every time your browser refreshes it essentially creates a clone based off of the HTML. 
 
 
 When your browser loads the HTML it creates a local copy of the webpage that you can interact with. The DOM is kinda like the **central nerviuous system** of the new page. Every element on the page, text inputs, links, images, are treated like **objects** that are part of the **Document**. 
 
 Check out this [series of video tutorials that deal with the DOM](http://www.youtube.com/watch?v=aPW_wQEFvek&list=PL18600E7CA651B16B).
 
+####Basic HTML:
+Now that you understand the conept of how HTML is turned into a web page via the DOM you should be ready to learn how to write some basic HTML.
+
+__NOTE: Learn some basic HTML before you bother jumping in to advanced HTML5__
+
+HTML(Hyper Text Markup Language) is a specific type of XML or [Extensible Markup Language](http://en.wikipedia.org/wiki/XML). A while ago I would have suggested you learned more about XML before moving on but in recent times it seems that modern browsers are not sticking as tightly to XML standards.
 
 
+#####Resources:
+
+* [W3Schools](http://www.w3schools.com/html/default.asp) is the internets leading tutorial for the basics.
 
 There are plenty of frameworks(libraries of code) that take all of the small and tedious or large and difficult tasks and make them a lot easier to do. 
 
 ####Framework: [jQuery](http://jquery.com/):
-The defacto frontend javascript framework is [jQuery](http://jquery.com/). Some people would disagree, but if you look at the [numbers](http://www.similartech.com/categories/javascript) its obvious jQuery 
+The defacto frontend javascript framework is [jQuery](http://jquery.com/). Some people would disagree, but if you look at the [numbers](http://www.similartech.com/categories/javascript) its obvious jQuery is on top. 
+
+jQuery has many tools for fining elements in the DOM and working with them. 
+
+#####Other Resources:
+
+* [jQuery Cheat Sheet](http://oscarotero.com/jquery/)
 
 
 
