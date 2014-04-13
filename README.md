@@ -1,15 +1,17 @@
 
 
-
 ##What do you want to learn?
 
 ###Front End Browser Web Apps:
 JavaScript has evolved to the default frontend browser language. Sorry Flash and [all the other contenders](http://en.wikipedia.org/wiki/Client-side_scripting#List_of_Client-Side_Scripting_Languages). 
 
 ####Understan the DOM:
-The number one think I would recomend understanding before diving in to the Browser side of web apps is the Document Object Model or 'DOM'. So you have heard of HTML? Well HTML is basically the **DNA** for the web page. When your browser loads the HTML it creates a local copy of the webpage that you can interact with. The DOM is kinda like the **central nerviuous system**. Every element on the page, text inputs, links, images, are treated like **objects** that are part of the **Document**. 
+The number one think I would recomend understanding before diving in to the Browser side of web apps is the Document Object Model or 'DOM'. So you have heard of HTML? Well HTML is basically the **DNA** for the web page. Every time your browser refreshes it essentially creates a clone based off of the HTML. 
 
-Here is a series of video tutorials that deal with the DOM.
+
+When your browser loads the HTML it creates a local copy of the webpage that you can interact with. The DOM is kinda like the **central nerviuous system** of the new page. Every element on the page, text inputs, links, images, are treated like **objects** that are part of the **Document**. 
+
+Check out this [series of video tutorials that deal with the DOM](http://www.youtube.com/watch?v=aPW_wQEFvek&list=PL18600E7CA651B16B).
 
 
 
