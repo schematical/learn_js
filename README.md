@@ -1,4 +1,3 @@
-
 ##What do you want to learn?
 
 ###Front End Browser Web Apps:
@@ -26,14 +25,25 @@ HTML(Hyper Text Markup Language) is a specific type of XML or [Extensible Markup
 
 There are plenty of frameworks(libraries of code) that take all of the small and tedious or large and difficult tasks and make them a lot easier to do. 
 
-####Framework: [jQuery](http://jquery.com/):
+####Basic Framework [jQuery](http://jquery.com/):
 The defacto frontend javascript framework is [jQuery](http://jquery.com/). Some people would disagree, but if you look at the [numbers](http://www.similartech.com/categories/javascript) its obvious jQuery is on top. 
 
-jQuery has many tools for fining elements in the DOM and working with them. 
+jQuery is great for bridging the gaps between the different browsers. If you have never done web dev then you have never had to deal with the agonizing pain of writing apps for multiple browsers. Its like every major borswer, Chrome, Safari, Mozilla all decided to kinda follow a standard, but not really. Then Internet Explorer came along and just said "Screw it" and went and did their own
+
+jQuery has many tools that take tasks that would normally a dozen or more lines of code and condense them into less than one line.
 
 #####Other Resources:
 
 * [jQuery Cheat Sheet](http://oscarotero.com/jquery/)
+
+
+####User Interface Framework [Bootstrap]:
+
+
+####Advanced Framework Angular or Backbone:
+
+
+
 
 
 
