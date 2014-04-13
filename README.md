@@ -37,8 +37,14 @@ jQuery has many tools that take tasks that would normally a dozen or more lines 
 * [jQuery Cheat Sheet](http://oscarotero.com/jquery/)
 
 
-####User Interface Framework [Bootstrap]:
+####User Interface Framework [Bootstrap](http://getbootstrap.com/):
+Since the massive increase in mobile browsing a new trend called [Responsive Browsing](http://en.wikipedia.org/wiki/Responsive_web_design). It is the pratice of making your web page designs adapt depending on the screen width.
 
+#####Alternitivess:
+
+* jQuery Mobile
+* Kendo UI
+* [Ionic Framework](http://ionicframework.com/) - Madison based guys, I am really excited for what Max and the team have planned.
 
 ####Advanced Framework Angular or Backbone:
 
