@@ -28,11 +28,176 @@
 
     <div class="container">
       <section id="main_content">
-        <h2>
+        <p>This article my guide to applying <a href="http://en.wikipedia.org/wiki/Pareto_principle">Pareto's Law</a> to learning how to write JavaScript to build <em>browser apps, server apps, desktop apps, mobile apps,</em> even <em>command line</em> or <em>arduino apps</em>. </p>
+
+<p>This article it self is not a tutorial. Just a suggested list of resources orginized in a way that builds off of the previous resource.</p>
+
+<p>This is not to say you should not learn other languages or that this is the only way. Other languages are great to learn. For example if you want to build Android apps using the techniques I describe below you can get an app up and running, but it wouldn't hurt to learn a little java and understand how Androids WebView system works to help you write a better app.</p>
+
+<p>But dont just go learning a programming language for the sake of learning to program. I strongly suggest having a set goal in mind as you go through this article and start working twards it.</p>
+
+<h2>
+<a name="a-word-of-advice" class="anchor" href="#a-word-of-advice"><span class="octicon octicon-link"></span></a>A word of advice:</h2>
+
+<p>Pick something you are passionate about and then learn to programm by building a web page or app around your passion.</p>
+
+<p>My cosin is a freshmen in college. She recently asked for my help with her intro to programming class. I have helped many studients over the years with this class and I am always appauled at the way they teach studients how to program. What they are really doing is teaching studients how to hate programming. Its tough to describe: </p>
+
+<p>Think of it like an art class where they teach you to paint by numbers. You are penilized for coloring out side of the lines their fore killing all creativity.</p>
+
+<p>It is quite painful to watch. This is why I suggest you pick something you are passionate about. Then take that app idea you have, everyone has an app idea, and set your mind to building it. If you don't already have an idea or tow I suggest you Take out a peace of paper and start brainstorming.</p>
+
+<h2>
+<a name="principals-above-methods" class="anchor" href="#principals-above-methods"><span class="octicon octicon-link"></span></a>Principals above methods:</h2>
+
+<p>Before learning the nuances of any programming language it is far more important to understand the key principals. </p>
+
+<ul>
+<li>Object Oriented Programing</li>
+<li>Model View Control Architeture</li>
+<li>Async/Observer Patterns</li>
+</ul><p>//TODO - Matt: Find away to better explain these principals</p>
+
+<h2>
 <a name="what-do-you-want-to-learn" class="anchor" href="#what-do-you-want-to-learn"><span class="octicon octicon-link"></span></a>What do you want to learn?</h2>
 
-<h3>
+<p>Where you should start all depends on what you want to build. If you follow my advice about creating an app around one of your passions this path should be pretty clear.</p>
+
+<p>Here is a list of the types of apps I cover here:</p>
+
+<ul>
+<li>'Frontend' Browser Web Apps</li>
+<li>'Backend' Server Web Apps</li>
+<li>Native Mobile Apps(Apps that live on the device)</li>
+<li>Desktop Apps</li>
+<li>Command Line Apps and Scripts - Fun Time Optimizers for the power users</li>
+<li>Arduino Apps</li>
+</ul><h3>
 <a name="front-end-browser-web-apps" class="anchor" href="#front-end-browser-web-apps"><span class="octicon octicon-link"></span></a>Front End Browser Web Apps:</h3>
+
+<p>JavaScript has evolved to the default frontend browser language. Sorry Flash and <a href="http://en.wikipedia.org/wiki/Client-side_scripting#List_of_Client-Side_Scripting_Languages">all the other contenders</a>. </p>
+
+<h4>
+<a name="understan-the-dom" class="anchor" href="#understan-the-dom"><span class="octicon octicon-link"></span></a>Understan the DOM:</h4>
+
+<p>The number one concept I would recomend understanding before diving in to the Browser side of web apps, even before HTML, is the Document Object Model or 'DOM'. Everyone has heard of HTML. HTML is basically the <strong>DNA</strong> for the web page. Every time your browser refreshes it essentially creates a clone based off of the HTML. </p>
+
+<p>When your browser loads the HTML it creates a local copy of the webpage that you can interact with. The DOM is kinda like the <strong>central nerviuous system</strong> of the new page. Every element on the page, text inputs, links, images, are treated like <strong>objects</strong> that are part of the <strong>Document</strong>. </p>
+
+<p>Check out this <a href="http://www.youtube.com/watch?v=aPW_wQEFvek&amp;list=PL18600E7CA651B16B">series of video tutorials that deal with the DOM</a>.</p>
+
+<h4>
+<a name="basic-html" class="anchor" href="#basic-html"><span class="octicon octicon-link"></span></a>Basic HTML:</h4>
+
+<p>Now that you understand the conept of how HTML is turned into a web page via the DOM you should be ready to learn how to write some basic HTML.</p>
+
+<p><strong>NOTE: Learn some basic HTML before you bother jumping in to advanced HTML5</strong></p>
+
+<p>HTML(Hyper Text Markup Language) is a specific type of XML or <a href="http://en.wikipedia.org/wiki/XML">Extensible Markup Language</a>. A while ago I would have suggested you learned more about XML before moving on but in recent times it seems that modern browsers are not sticking as tightly to XML standards.</p>
+
+<h5>
+<a name="resources" class="anchor" href="#resources"><span class="octicon octicon-link"></span></a>Resources:</h5>
+
+<ul>
+<li>
+<a href="http://www.w3schools.com/html/default.asp">W3Schools</a> is the internets leading tutorial for the basics.</li>
+</ul><p>There are plenty of frameworks(libraries of code) that take all of the small and tedious or large and difficult tasks and make them a lot easier to do. </p>
+
+<h4>
+<a name="basic-framework-jquery" class="anchor" href="#basic-framework-jquery"><span class="octicon octicon-link"></span></a>Basic Framework <a href="http://jquery.com/">jQuery</a>:</h4>
+
+<p>The defacto frontend javascript framework is <a href="http://jquery.com/">jQuery</a>. Some people would disagree, but if you look at the <a href="http://www.similartech.com/categories/javascript">numbers</a> its obvious jQuery is on top. </p>
+
+<p>jQuery is great for bridging the gaps between the different browsers. If you have never done web dev then you have never had to deal with the agonizing pain of writing apps for multiple browsers. Its like every major borswer, Chrome, Safari, Mozilla all decided to kinda follow a standard, but not really. Then Internet Explorer came along and just said "Screw it" and went and did their own</p>
+
+<p>jQuery has many tools that take tasks that would normally a dozen or more lines of code and condense them into less than one line.</p>
+
+<h5>
+<a name="ajax" class="anchor" href="#ajax"><span class="octicon octicon-link"></span></a>Ajax:</h5>
+
+<p>One of the most important things that has happened to the modern internet is the uprise of <a href="http://en.wikipedia.org/wiki/Ajax_(programming)">Asyncrious browser interatctions</a>. This is the technique of sending and recving infromation with the server without reloading the page you are viewing. So anytime you do a search and the page doesnt reload they are most likely using Ajax. jQuery makes this crazy easy, exspecially across differnt browser types. </p>
+
+<p>Check out how it looks without jQuery</p>
+
+<pre><code>function loadXMLDoc()
+{
+var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 &amp;&amp; xmlhttp.status==200)
+    {
+    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("GET","ajax_info.txt",true);
+xmlhttp.send();
+}
+</code></pre>
+
+<p>and using jQuery</p>
+
+<pre><code>$.get( "ajax/test.html", function( data ) { /* success */ });
+</code></pre>
+
+<h5>
+<a name="other-resources" class="anchor" href="#other-resources"><span class="octicon octicon-link"></span></a>Other Resources:</h5>
+
+<ul>
+<li><a href="http://oscarotero.com/jquery/">jQuery Cheat Sheet</a></li>
+</ul><h4>
+<a name="user-interface-framework-bootstrap" class="anchor" href="#user-interface-framework-bootstrap"><span class="octicon octicon-link"></span></a>User Interface Framework <a href="http://getbootstrap.com/">Bootstrap</a>:</h4>
+
+<p>Since the massive increase in mobile browsing a new trend called <a href="http://en.wikipedia.org/wiki/Responsive_web_design">Responsive Browsing</a>. It is the pratice of making your web page designs adapt depending on the screen width. </p>
+
+<h5>
+<a name="the-responsive-test" class="anchor" href="#the-responsive-test"><span class="octicon octicon-link"></span></a>The Responsive Test:</h5>
+
+<p>When you are viewing a page on your desktop browser and you want to see how responsive the page is resize your browser window to 1/3 to simulate a mobile phone or 2/3 to simulate a tablet(this page should be responsive). The content in the page should adapt with out you needing to scroll left or right.</p>
+
+<p>Several frameworks have been released to assist in desiging these types of pages. The most popular is the <a href="http://getbootstrap.com/">Bootstrap Framework</a>. </p>
+
+<p>This framework is a peace of cake. It basically breaks down your screen into a 12 column grid. Go to their section that explains <a href="http://getbootstrap.com/css/#grid">how their grid works</a> and do the above mentioned responsive test. </p>
+
+<p>Bootstrap also ships with a whole bunch of nice little components that make desiging a web app easier.</p>
+
+<h5>
+<a name="alternitivess" class="anchor" href="#alternitivess"><span class="octicon octicon-link"></span></a>Alternitivess:</h5>
+
+<ul>
+<li>
+<a href="http://jquerymobile.com/">jQuery Mobile</a> - Originally just for Mobile, but now responsive.</li>
+<li>
+<a href="http://ionicframework.com/">Ionic Framework</a> - Madison based guys, I am really excited for what Max and the team have planned.</li>
+</ul><p>There are others but none I would recomend at this point.</p>
+
+<h4>
+<a name="advanced-framework-angular-or-backbone" class="anchor" href="#advanced-framework-angular-or-backbone"><span class="octicon octicon-link"></span></a>Advanced Framework Angular or Backbone:</h4>
+
+<p>If you want to add some real structure to your apps try either the <a href="http://angularjs.org/">Angular Framework</a> or <a href="http://backbonejs.org/">Backbone JS</a>.</p>
+
+<p><em>Warning:</em> Both can be really overwhelming if you are just starting out. You should have a solid understanding of the concepts relating to <a href="./">Model View Control</a> //TODO: Matt write an article on web application Architeture</p>
+
+<h5>
+<a name="angular" class="anchor" href="#angular"><span class="octicon octicon-link"></span></a>Angular:</h5>
+
+<p>Angular is an extreamly popular framework relighs heavily on <a href="http://en.wikipedia.org/wiki/Data_binding">Data Binding</a>. Previously I was against all inline javascript(Writing JS code in your HTML) because it is kinda messy and data binding because of some bad expirences with <a href="http://www.telerik.com/kendo-ui">KendoUI</a>. But the <a href="http://ionicframework.com/">Ionic Framework</a> has begun to change my mind.</p>
+
+<p>Because it allows you to directly bind your Javascript objects with elements on the screen it makes developing an app quicker.</p>
+
+<h5>
+<a name="backbonejs" class="anchor" href="#backbonejs"><span class="octicon octicon-link"></span></a>Backbone.js:</h5>
+
+<p>Backbone is a more ridged and robust set of tools for building a <a href="./todo-matt-write-this">Model View Control</a> that is well architected. Unfortuntly their vocabulary doent match popular industury standard naming conventions, such as calling 'Controls' 'Views' but other then that there are some solid benifits.</p>
+
+<p>You can define a front end data model then chose on the fly how to have them save. For example you can write a browser app that uses <a href="./todo-matt-write-this">Ajax</a> to save the web app. Then </p>
 
 <h3>
 <a name="back-end-server-web-apps" class="anchor" href="#back-end-server-web-apps"><span class="octicon octicon-link"></span></a>Back End Server Web Apps:</h3>
