@@ -1,8 +1,7 @@
-#Big Header
-
-[link whatever](http://boozely.co)
-
 ##What do you want to learn?
+
+
+
 
 ###Front End Browser Web Apps:
 JavaScript has evolved to the default frontend browser language. Sorry Flash and [all the other contenders](http://en.wikipedia.org/wiki/Client-side_scripting#List_of_Client-Side_Scripting_Languages). 
