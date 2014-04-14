@@ -59,13 +59,34 @@ jQuery has many tools that take tasks that would normally a dozen or more lines 
 #####Ajax:
 One of the most important things that has happened to the modern internet is the uprise of [Asyncrious browser interatctions](http://en.wikipedia.org/wiki/Ajax_(programming)). This is the technique of sending and recving infromation with the server without reloading the page you are viewing. So anytime you do a search and the page doesnt reload they are most likely using Ajax. jQuery makes this crazy easy, exspecially across differnt browser types. 
 
-Check out how it looks [with out jQuery](http://www.w3schools.com/ajax/tryit.asp?filename=tryajax_first) and 
+Check out how it looks without jQuery
+```
+function loadXMLDoc()
+{
+var xmlhttp;
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.onreadystatechange=function()
+  {
+  if (xmlhttp.readyState==4 && xmlhttp.status==200)
+    {
+    document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+    }
+  }
+xmlhttp.open("GET","ajax_info.txt",true);
+xmlhttp.send();
+}
+```
+and using jQuery
 
 ```
-$.get( "ajax/test.html", function( data ) {
-  $( ".result" ).html( data );
-  
-});
+$.get( "ajax/test.html", function( data ) { /* success */ });
 ```
 
 #####Other Resources:
