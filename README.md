@@ -6,6 +6,18 @@ This is not to say you should not learn other languages or that this is the only
 
 But dont just go learning a programming language for the sake of learning to program. I strongly suggest having a set goal in mind as you go through this article and start working twards it.
 
+
+##A word of advice:
+Pick something you are passionate about and then learn to programm by building a web page or app around your passion.
+
+My cosin is a freshmen in college. She recently asked for my help with her intro to programming class. I have helped many studients over the years with this class and I am always appauled at the way they teach studients how to program. What they are really doing is teaching studients how to hate programming. Its tough to describe: 
+
+Think of it like an art class where they teach you to paint by numbers. You are penilized for coloring out side of the lines their fore killing all creativity.
+
+It is quite painful to watch. This is why I suggest you pick something you are passionate about. Then take that app idea you have, everyone has an app idea, and set your mind to building it.
+
+
+
 ##Principals above methods:
 
 Before learning  the nuances of any programming language it is far more important to understand the key principals. 
@@ -15,13 +27,16 @@ Before learning  the nuances of any programming language it is far more importan
 * Async/Observer Patterns
 
 
+
 ##What do you want to learn?
+Where you should start all depends on 
 
-My cosin is a freshmen in college. Recently asked for my help with her intro to programming class. I have helped many studients over the years with this class and I am always appauled at the way they teach studients how to program. What they are really doing is teaching studients how to hate programming. Its tough to describe: 
 
-Think of it like an art class where they teach you to paint by numbers. You are penilized for coloring out side of the lines their fore killing all creativity.
 
-It is quite painful to watch. This is why I suggest you pick something you are passionate about. Then take that app idea you have, everyone has an app idea, and set your mind to building it.
+
+
+
+
 
 
 ###Front End Browser Web Apps:
