@@ -14,22 +14,29 @@ My cosin is a freshmen in college. She recently asked for my help with her intro
 
 Think of it like an art class where they teach you to paint by numbers. You are penilized for coloring out side of the lines their fore killing all creativity.
 
-It is quite painful to watch. This is why I suggest you pick something you are passionate about. Then take that app idea you have, everyone has an app idea, and set your mind to building it.
-
-
+It is quite painful to watch. This is why I suggest you pick something you are passionate about. Then take that app idea you have, everyone has an app idea, and set your mind to building it. If you don't already have an idea or tow I suggest you Take out a peace of paper and start brainstorming.
 
 ##Principals above methods:
 
-Before learning  the nuances of any programming language it is far more important to understand the key principals. 
+Before learning the nuances of any programming language it is far more important to understand the key principals. 
 
 * Object Oriented Programing
 * Model View Control Architeture
 * Async/Observer Patterns
 
-
+//TODO - Matt: Find away to better explain these principals
 
 ##What do you want to learn?
-Where you should start all depends on 
+Where you should start all depends on what you want to build. If you follow my advice about creating an app around one of your passions this path should be pretty clear.
+
+Here is a list of the types of apps I cover here:
+
+* 'Frontend' Browser Web Apps
+* 'Backend' Server Web Apps
+* Native Mobile Apps(Apps that live on the device)
+* Desktop Apps
+* Command Line Apps and Scripts - Fun Time Optimizers for the power users
+* Arduino Apps
 
 
 
@@ -145,10 +152,25 @@ You can define a front end data model then chose on the fly how to have them sav
 
 
 
+
+
+
+
+
+
+
+
 ###Back End Server Web Apps:
 This miricul of modern scinence can be acomplished with [NodeJS](http://nodejs.org/). The bulk of learning resources for learning NodeJS can be found on their [community page](http://nodejs.org/community/). There is also an [amazing thread on Stack Overflow](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) that covers this.
 
 NodeJS is not just a web server. It is much much more. It can be easily used to script any programmatic tasks. Lots of major frameworks are using it to build command line utilities that assist their programs build primarily in other languages.
+
+
+
+
+
+
+
 
 ###Mobile Apps:
 If you want to build a mobile app with out needing to learn Java, Objective C, and whatever windows and Blackberry are written in then you will want to check out [Cordova](http://cordova.apache.org/). Apple still makes publishing an app to their market place as much fun as sticking nails in your eyes, and Android still requires you to install the [Android SDK](http://developer.android.com/sdk/index.html) (Peace of cake). Overall its still a lot easier than learning all of the different languages. 
