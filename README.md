@@ -1,30 +1,30 @@
 This article my guide to applying [Pareto's Law](http://en.wikipedia.org/wiki/Pareto_principle) to learning how to write JavaScript to build *browser apps, server apps, desktop apps, mobile apps,* even *command line* or *arduino apps*. 
 
-This article it self is not a tutorial. Just a suggested list of resources orginized in a way that builds off of the previous resource.
+This article it self is not a tutorial. Just a suggested list of resources organized in a way that builds off of the previous resource.
 
 This is not to say you should not learn other languages or that this is the only way. Other languages are great to learn. For example if you want to build Android apps using the techniques I describe below you can get an app up and running, but it wouldn't hurt to learn a little java and understand how Androids WebView system works to help you write a better app.
 
-But dont just go learning a programming language for the sake of learning to program. I strongly suggest having a set goal in mind as you go through this article and start working twards it.
+But don't just go learning a programming language for the sake of learning to program. I strongly suggest having a set goal in mind as you go through this article and start working towards it.
 
 
 ##A word of advice:
-Pick something you are passionate about and then learn to programm by building a web page or app around your passion.
+Pick something you are passionate about and then learn to program by building a web page or app around your passion.
 
-My cosin is a freshmen in college. She recently asked for my help with her intro to programming class. I have helped many studients over the years with this class and I am always appauled at the way they teach studients how to program. What they are really doing is teaching studients how to hate programming. Its tough to describe: 
+My cousin is a freshmen in college. She recently asked for my help with her intro to programming class. I have helped many students over the years with this class and I am always appalled at the way they teach students how to program. What they are really doing is teaching students how to hate programming. Its tough to describe: 
 
-Think of it like an art class where they teach you to paint by numbers. You are penilized for coloring out side of the lines their fore killing all creativity.
+Think of it like an art class where they teach you to paint by numbers. You are penalized for coloring outside of the lines their fore killing all creativity.
 
-It is quite painful to watch. This is why I suggest you pick something you are passionate about. Then take that app idea you have, everyone has an app idea, and set your mind to building it. If you don't already have an idea or tow I suggest you Take out a peace of paper and start brainstorming.
+It is quite painful to watch. This is why I suggest you pick something you are passionate about. Then take that app idea you have, everyone has an app idea, and set your mind to building it. If you don't already have an idea or two I suggest you Take out a piece of paper and start brainstorming.
 
 ##Principals above methods:
 
-Before learning the nuances of any programming language it is far more important to understand the key principals. 
+Before learning the nuances of any programming language it is far more important to understand the key principles. 
 
 * Object Oriented Programing
-* Model View Control Architeture
+* Model View Control Architecture
 * Async/Observer Patterns
 
-//TODO - Matt: Find away to better explain these principals
+//TODO - Matt: Find away to better explain these principles
 
 ##What do you want to learn?
 Where you should start all depends on what you want to build. If you follow my advice about creating an app around one of your passions this path should be pretty clear.
@@ -49,16 +49,16 @@ Here is a list of the types of apps I cover here:
 ###Front End Browser Web Apps:
 JavaScript has evolved to the default frontend browser language. Sorry Flash and [all the other contenders](http://en.wikipedia.org/wiki/Client-side_scripting#List_of_Client-Side_Scripting_Languages). 
 
-####Understan the DOM:
-The number one concept I would recomend understanding before diving in to the Browser side of web apps, even before HTML, is the Document Object Model or 'DOM'. Everyone has heard of HTML. HTML is basically the **DNA** for the web page. Every time your browser refreshes it essentially creates a clone based off of the HTML. 
+####Understand the DOM:
+The number one concept I would recommend understanding before diving in to the Browser side of web apps, even before HTML, is the Document Object Model or 'DOM'. Everyone has heard of HTML. HTML is basically the **DNA** for the web page. Every time your browser refreshes it essentially creates a clone based off of the HTML. 
 
 
-When your browser loads the HTML it creates a local copy of the webpage that you can interact with. The DOM is kinda like the **central nerviuous system** of the new page. Every element on the page, text inputs, links, images, are treated like **objects** that are part of the **Document**. 
+When your browser loads the HTML it creates a local copy of the webpage that you can interact with. The DOM is kinda like the **central nervous system** of the new page. Every element on the page, text inputs, links, images, are treated like **objects** that are part of the **Document**. 
 
 Check out this [series of video tutorials that deal with the DOM](http://www.youtube.com/watch?v=aPW_wQEFvek&list=PL18600E7CA651B16B).
 
 ####Basic HTML:
-Now that you understand the conept of how HTML is turned into a web page via the DOM you should be ready to learn how to write some basic HTML.
+Now that you understand the concept of how HTML is turned into a web page via the DOM you should be ready to learn how to write some basic HTML.
 
 __NOTE: Learn some basic HTML before you bother jumping in to advanced HTML5__
 
@@ -74,12 +74,12 @@ There are plenty of frameworks(libraries of code) that take all of the small and
 ####Basic Framework [jQuery](http://jquery.com/):
 The defacto frontend javascript framework is [jQuery](http://jquery.com/). Some people would disagree, but if you look at the [numbers](http://www.similartech.com/categories/javascript) its obvious jQuery is on top. 
 
-jQuery is great for bridging the gaps between the different browsers. If you have never done web dev then you have never had to deal with the agonizing pain of writing apps for multiple browsers. Its like every major borswer, Chrome, Safari, Mozilla all decided to kinda follow a standard, but not really. Then Internet Explorer came along and just said "Screw it" and went and did their own
+jQuery is great for bridging the gaps between the different browsers. If you have never done web dev then you have never had to deal with the agonizing pain of writing apps for multiple browsers. Its like every major browser, Chrome, Safari, Mozilla all decided to kinda follow a standard, but not really. Then Internet Explorer came along and just said "Screw it" and went and did their own
 
 jQuery has many tools that take tasks that would normally a dozen or more lines of code and condense them into less than one line.
 
 #####Ajax:
-One of the most important things that has happened to the modern internet is the uprise of [Asyncrious browser interatctions](http://en.wikipedia.org/wiki/Ajax_(programming)). This is the technique of sending and recving infromation with the server without reloading the page you are viewing. So anytime you do a search and the page doesnt reload they are most likely using Ajax. jQuery makes this crazy easy, exspecially across differnt browser types. 
+One of the most important things that has happened to the modern internet is the uprise of [Asyncrious browser interatctions](http://en.wikipedia.org/wiki/Ajax_(programming)). This is the technique of sending and receiving information with the server without reloading the page you are viewing. So anytime you do a search and the page doesn't reload they are most likely using Ajax. jQuery makes this crazy easy, especially across different browser types. 
 
 Check out how it looks without jQuery
 ```
@@ -117,36 +117,36 @@ $.get( "ajax/test.html", function( data ) { /* success */ });
 
 
 ####User Interface Framework [Bootstrap](http://getbootstrap.com/):
-Since the massive increase in mobile browsing a new trend called [Responsive Browsing](http://en.wikipedia.org/wiki/Responsive_web_design). It is the pratice of making your web page designs adapt depending on the screen width. 
+Since the massive increase in mobile browsing a new trend called [Responsive Browsing](http://en.wikipedia.org/wiki/Responsive_web_design). It is the practice of making your web page designs adapt depending on the screen width. 
 
 #####The Responsive Test:
-When you are viewing a page on your desktop browser and you want to see how responsive the page is resize your browser window to 1/3 to simulate a mobile phone or 2/3 to simulate a tablet(this page should be responsive). The content in the page should adapt with out you needing to scroll left or right.
+When you are viewing a page on your desktop browser and you want to see how responsive the page is resize your browser window to 1/3 to simulate a mobile phone or 2/3 to simulate a tablet(this page should be responsive). The content in the page should adapt without you needing to scroll left or right.
 
-Several frameworks have been released to assist in desiging these types of pages. The most popular is the [Bootstrap Framework](http://getbootstrap.com/). 
+Several frameworks have been released to assist in designing these types of pages. The most popular is the [Bootstrap Framework](http://getbootstrap.com/). 
 
-This framework is a peace of cake. It basically breaks down your screen into a 12 column grid. Go to their section that explains [how their grid works](http://getbootstrap.com/css/#grid) and do the above mentioned responsive test. 
+This framework is a piece of cake. It basically breaks down your screen into a 12 column grid. Go to their section that explains [how their grid works](http://getbootstrap.com/css/#grid) and do the above mentioned responsive test. 
 
-Bootstrap also ships with a whole bunch of nice little components that make desiging a web app easier.
+Bootstrap also ships with a whole bunch of nice little components that make designing a web app easier.
 
-#####Alternitivess:
+#####Alternatives:
 
 * [jQuery Mobile](http://jquerymobile.com/) - Originally just for Mobile, but now responsive.
 * [Ionic Framework](http://ionicframework.com/) - Madison based guys, I am really excited for what Max and the team have planned.
 
-There are others but none I would recomend at this point.
+There are others but none I would recommend at this point.
 
 ####Advanced Framework Angular or Backbone:
 If you want to add some real structure to your apps try either the [Angular Framework](http://angularjs.org/) or [Backbone JS](http://backbonejs.org/).
 
-*Warning:* Both can be really overwhelming if you are just starting out. You should have a solid understanding of the concepts relating to [Model View Control](./) //TODO: Matt write an article on web application Architeture
+*Warning:* Both can be really overwhelming if you are just starting out. You should have a solid understanding of the concepts relating to [Model View Control](./) //TODO: Matt write an article on web application Architecture
 
 #####Angular:
-Angular is an extreamly popular framework relighs heavily on [Data Binding](http://en.wikipedia.org/wiki/Data_binding). Previously I was against all inline javascript(Writing JS code in your HTML) because it is kinda messy and data binding because of some bad expirences with [KendoUI](http://www.telerik.com/kendo-ui). But the [Ionic Framework](http://ionicframework.com/) has begun to change my mind.
+Angular is an extremely popular framework relys heavily on [Data Binding](http://en.wikipedia.org/wiki/Data_binding). Previously I was against all inline javascript(Writing JS code in your HTML) because it is kinda messy and data binding because of some bad expirences with [KendoUI](http://www.telerik.com/kendo-ui). But the [Ionic Framework](http://ionicframework.com/) has begun to change my mind.
 
 Because it allows you to directly bind your Javascript objects with elements on the screen it makes developing an app quicker.
 
 #####Backbone.js:
-Backbone is a more ridged and robust set of tools for building a [Model View Control](./todo-matt-write-this) that is well architected. Unfortuntly their vocabulary doent match popular industury standard naming conventions, such as calling 'Controls' 'Views' but other then that there are some solid benifits.
+Backbone is a more rigid and robust set of tools for building a [Model View Control](./todo-matt-write-this) that is well architected. Unfortunately their vocabulary does not match popular industry standard naming conventions, such as calling 'Controls' 'Views' but other then that there are some solid benefits.
 
 You can define a front end data model then chose on the fly how to have them save. For example you can write a browser app that uses [Ajax](./todo-matt-write-this) to save the web app. Then 
 
@@ -161,9 +161,9 @@ You can define a front end data model then chose on the fly how to have them sav
 
 
 ###Back End Server Web Apps:
-This miricul of modern scinence can be acomplished with [NodeJS](http://nodejs.org/). The bulk of learning resources for learning NodeJS can be found on their [community page](http://nodejs.org/community/). There is also an [amazing thread on Stack Overflow](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) that covers this.
+This miracle of modern science can be accomplished with [NodeJS](http://nodejs.org/). The bulk of learning resources for learning NodeJS can be found on their [community page](http://nodejs.org/community/). There is also an [amazing thread on Stack Overflow](http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js) that covers this.
 
-NodeJS is not just a web server. It is much much more. It can be easily used to script any programmatic tasks. Lots of major frameworks are using it to build command line utilities that assist their programs build primarily in other languages.
+Node JS is not just a web server. It is much much more. It can be easily used to script any programmatic tasks. Lots of major frameworks are using it to build command line utilities that assist their programs build primarily in other languages.
 
 
 
@@ -176,3 +176,6 @@ NodeJS is not just a web server. It is much much more. It can be easily used to 
 If you want to build a mobile app with out needing to learn Java, Objective C, and whatever windows and Blackberry are written in then you will want to check out [Cordova](http://cordova.apache.org/). Apple still makes publishing an app to their market place as much fun as sticking nails in your eyes, and Android still requires you to install the [Android SDK](http://developer.android.com/sdk/index.html) (Peace of cake). Overall its still a lot easier than learning all of the different languages. 
 
 NOTE: This is not saying that it is not beneficial to eventually learn the other languages. Remember my goal is to get you the ability to learn 80% of the benefit with 20% of the time spent to learn any one other language.
+
+
+

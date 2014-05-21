@@ -162,6 +162,28 @@ var Learn = {
 
                 return true;
             }
+        },
+        6:{
+            start:function(){
+                window.Person = function(){
+                    return this;
+
+                }
+                console.log('Create an object named Fred by initializing the Person function. When you are done click next');
+            },
+            test:function(){
+                if(!window.Fred){
+                    console.error("I cant find Fred");
+                    return;
+                }
+                if(!window.Fred instanceof window.Person){
+                    console.error("Fred is NOT an 'instance' of a Person");
+                    return;
+                }
+
+
+                return true;
+            }
         }
     }
 }
