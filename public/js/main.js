@@ -16,7 +16,12 @@ var Learn = {
                 return;
             }
             window._lession_num += 1;
+            if(!Learn.Lessions[window._lession_num]){
+                return console.log("That is all the lesions we have for today kids");
+            }
         }
+
+        console.log('============================Lesion:' + window._lession_num + '========================');
         Learn.Lessions[window._lession_num].start();
     },
     test:function(){
