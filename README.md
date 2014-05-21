@@ -26,6 +26,10 @@ Before learning the nuances of any programming language it is far more important
 
 //TODO - Matt: Find away to better explain these principles
 
+If you are just starting you may want to check out my presentation called [How to see the world through the eyes of a programmer](http://prezi.com/sxcawsg1uiuy/?utm_campaign=share&utm_medium=copy)
+
+_NOTE: At this time its just a Prezi. Adding audio or notes would probably be really helpful, plus it ends abruptly_
+
 ##What do you want to learn?
 Where you should start all depends on what you want to build. If you follow my advice about creating an app around one of your passions this path should be pretty clear.
 
@@ -37,11 +41,6 @@ Here is a list of the types of apps I cover here:
 * Desktop Apps
 * Command Line Apps and Scripts - Fun Time Optimizers for the power users
 * Arduino Apps
-
-
-
-
-
 
 
 
