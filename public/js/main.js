@@ -63,7 +63,7 @@ var Learn = {
             start:function(){
                 window._weight_gained = null;
                 window.gainWeight = function(person){
-                    if(!persion || !person.weight){
+                    if(!person || !person.weight){
                         return console.error("Invalid first parameter passed in. Does the object you passed in have a 'weight' property?");
                     }
                     person.weight += 10;
